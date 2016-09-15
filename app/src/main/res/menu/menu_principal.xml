@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.frankzagal.materialdesing.Principal">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inbox"
+            android:checked="false"
+            android:icon="@mipmap/ic_descarga"
+            android:title="Descargar información" />
+
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@mipmap/ic_clientes"
+            android:title="Lista de clientes" />
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@mipmap/ic_cobrar"
+            android:title="Lista por cobrar" />
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@mipmap/ic_sube"
+            android:title="Subir información" />
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@mipmap/ic_cerrar"
+            android:title="Cerrar Sesión" />
+
+
+    </group>
+
+
+
+</menu>
